@@ -1,0 +1,17 @@
+<div class="container">
+    <h3 class="center-align">{{ hotel.Name }}</h3>
+    <div class="row"
+         style="margin-top: 5%;">
+        <div class="col s12 m12 l6">
+            <ng-container *ngIf="hotel">
+                <carousel [images]="hotel.Images"></carousel>
+            </ng-container>
+        </div>
+        <div class="col s12 m12 l6">
+            <ng-container *ngIf="hotel">
+                <app-details [description]="hotel.Description"
+                             [price]="hotel.Price"></app-details>
+            </ng-container>
+        </div>
+    </div>
+</div>

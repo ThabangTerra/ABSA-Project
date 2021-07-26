@@ -1,0 +1,142 @@
+[
+    {
+        "ID": "1",
+        "FlightType": "domestic",
+        "From": "O.R. Tambo International",
+        "To": "George Airport",
+        "Departure": "28/07/2021",
+        "Return": "29/07/2021",
+        "Price": 2160,
+        "AvailableSeats": 14
+    },
+    {
+        "ID": "2",
+        "FlightType": "domestic",
+        "From": "Cape Town International",
+        "To": "Bram Fischer International",
+        "Departure": "03/07/2021",
+        "Return": "06/07/2021",
+        "Price": 1869,
+        "AvailableSeats": 6
+    },
+    {
+        "ID": "3",
+        "FlightType": "domestic",
+        "From": "King Shaka International",
+        "To": "Upington International",
+        "Departure": "30/07/2021",
+        "Return": "01/08/2021",
+        "Price": 3698,
+        "AvailableSeats": 11
+    },
+    {
+        "ID": "4",
+        "FlightType": "domestic",
+        "From": "Upington International",
+        "To": "Kimberley Airport",
+        "Departure": "23/07/2021",
+        "Return": "24/07/2021",
+        "Price": 1205,
+        "AvailableSeats": 7
+    },
+    {
+        "ID": "5",
+        "FlightType": "domestic",
+        "From": "Kimberley Airport",
+        "To": "Port Elizabeth International",
+        "Departure": "28/07/2021",
+        "Return": "30/07/2021",
+        "Price": 876,
+        "AvailableSeats": 9
+    },
+    {
+        "ID": "6",
+        "FlightType": "domestic",
+        "From": "East London Airport",
+        "To": "George Airport",
+        "Departure": "28/07/2021",
+        "Return": "29/07/2021",
+        "Price": 869,
+        "AvailableSeats": 3
+    },
+    {
+        "ID": "7",
+        "FlightType": "domestic",
+        "From": "O.R. Tambo International",
+        "To": "East London Airport",
+        "Departure": "25/07/2021",
+        "Return": "26/07/2021",
+        "Price": 1236,
+        "AvailableSeats": 1
+    },
+    {
+        "ID": "8",
+        "FlightType": "domestic",
+        "From": "O.R. Tambo International",
+        "To": "Kimberley Airport",
+        "Departure": "23/07/2021",
+        "Return": "25/07/2021",
+        "Price": 3698,
+        "AvailableSeats": 5
+    },
+    {
+        "ID": "9",
+        "FlightType": "international",
+        "From": "O.R. Tambo International",
+        "To": "Eldoret International Airport",
+        "Departure": "23/07/2021",
+        "Return": "25/07/2021",
+        "Price": 3698,
+        "AvailableSeats": 3
+    },
+    {
+        "ID": "10",
+        "FlightType": "international",
+        "From": "Cape Town International",
+        "To": "Harare International Airport",
+        "Departure": "23/07/2021",
+        "Return": "25/07/2021",
+        "Price": 6785,
+        "AvailableSeats": 5
+    },
+    {
+        "ID": "11",
+        "FlightType": "international",
+        "From": "O.R. Tambo International",
+        "To": "Cairo International Airport",
+        "Departure": "23/07/2021",
+        "Return": "25/07/2021",
+        "Price": 8966,
+        "AvailableSeats": 4
+    },
+    {
+        "ID": "12",
+        "FlightType": "international",
+        "From": "King Shaka International",
+        "To": "Addis Ababa Bole International Airport",
+        "Departure": "23/07/2021",
+        "Return": "25/07/2021",
+        "Price": 9633,
+        "AvailableSeats": 6
+    },
+    {
+        "ID": "13",
+        "FlightType": "international",
+        "From": "O.R. Tambo International",
+        "To": "Harare International Airport",
+        "Departure": "23/07/2021",
+        "Return": "25/07/2021",
+        "Price": 12633,
+        "AvailableSeats": 1
+    },
+    {
+        "ID": "14",
+        "FlightType": "international",
+        "From": "Port Elizabeth International",
+        "To": "Mohammed V International Airport",
+        "Departure": "23/07/2021",
+        "Return": "25/07/2021",
+        "Price": 11560,
+        "AvailableSeats": 16
+    }
+]

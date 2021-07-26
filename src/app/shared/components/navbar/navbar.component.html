@@ -1,0 +1,40 @@
+<div class="navbar-fixed">
+    <nav class="white">
+        <div class="nav-wrapper container">
+          
+            <a data-target="mobile-nav"
+               class="sidenav-trigger">
+                <i class="material-icons black-text">menu</i>
+            </a>
+            <ul id="nav-mobile"
+                class="right hide-on-med-and-down">
+                <li (click)="navigate('/')"><a>Home</a></li>
+                <li (click)="navigate('/flights')"><a>Flights</a></li>
+                <li (click)="navigate('/hotels')"><a>Hotels</a></li>
+                <li (click)="navigate('/holidays')"><a>Holidays</a></li>
+                <li (click)="navigate('/blog')"><a>Blog</a></li>
+                <li (click)="navigate('/')"><a>FAQS</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- Sidenav -->
+<ul class="sidenav"
+    id="mobile-nav">
+    <li class="sidenav-logo">
+        <a (click)="onClose('/')">Home</a>
+    </li>
+    <li>
+        <a (click)="onClose('/flights')">Flights</a>
+    </li>
+    <li>
+        <a (click)="onClose('/hotels')">Hotels</a>
+    </li>
+    <li>
+        <a (click)="onClose('/holidays')">Holidays</a>
+    </li>
+    <li>
+        <a (click)="onClose('/blog')">Blog</a>
+    </li>
+</ul>

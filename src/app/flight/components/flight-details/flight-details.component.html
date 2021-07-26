@@ -1,0 +1,13 @@
+<ng-container *ngIf="flight">
+    <div class="row">
+        <div class="col s12 m10 l8 offset-l2 offset-m1">
+            <div class="card-panel hoverable">
+                <h5>{{ flight.From }} - {{ flight.To }}</h5>
+                <h6>{{ flight.Departure }} - {{ flight.Return }}</h6>
+                <h6>{{ flight.FlightType | titlecase }}</h6>
+                <h6>Available Seats: ({{ flight.AvailableSeats }})</h6>
+                <h6>{{ flight.Price | currency:'ZAR':'symbol-narrow' }}</h6>
+            </div>
+        </div>
+    </div>
+</ng-container>

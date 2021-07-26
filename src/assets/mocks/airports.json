@@ -1,0 +1,60 @@
+[
+    {
+        "ID": "1",
+        "Name": "O.R. Tambo International"
+    },
+    {
+        "ID": "2",
+        "Name": "Cape Town International"
+    },
+    {
+        "ID": "3",
+        "Name": "King Shaka International"
+    },
+    {
+        "ID": "4",
+        "Name": "Bram Fischer International"
+    },
+    {
+        "ID": "5",
+        "Name": "Port Elizabeth International"
+    },
+    {
+        "ID": "6",
+        "Name": "Upington International"
+    },
+    {
+        "ID": "7",
+        "Name": "East London Airport"
+    },
+    {
+        "ID": "8",
+        "Name": "George Airport"
+    },
+    {
+        "ID": "9",
+        "Name": "Kimberley Airport"
+    },
+    {
+        "ID": "10",
+        "Name": "Cairo International Airport"
+    },
+    {
+        "ID": "11",
+        "Name": "Mohammed V International Airport"
+    },
+    {
+        "ID": "12",
+        "Name": "Addis Ababa Bole International Airport"
+    }
+    ,
+    {
+        "ID": "12",
+        "Name": "Harare International Airport"
+    }
+    ,
+    {
+        "ID": "12",
+        "Name": "Eldoret International Airport"
+    }
+]

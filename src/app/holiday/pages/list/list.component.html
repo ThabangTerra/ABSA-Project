@@ -1,0 +1,21 @@
+<section class="slider">
+    <ul class="slides">
+        <li>
+            <img src="./assets/images/holidayBG.jpg">
+        </li>
+    </ul>
+</section>
+
+
+<div class="container">
+    <div class="row">
+        <h3 class="center-align grey-text">Best Holiday Resorts</h3>
+    </div>
+
+    <div class="row">
+        <ng-container *ngFor="let holiday of holidayObs | async">
+            <card [item]="holiday"
+                  (clkEvent)="onClick($event)"></card>
+        </ng-container>
+    </div>
+</div>

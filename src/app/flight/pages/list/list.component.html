@@ -1,0 +1,16 @@
+<div class="container">
+    <ng-container *ngFor="let flight of flights">
+        <flight-details [flight]="flight"></flight-details>
+    </ng-container>
+    <ng-container *ngIf="flights.length > 0 else noData"></ng-container>
+</div>
+
+<ng-template #noData>
+    <div class="row">
+        <h5 class="center-align">No Results Found...</h5>
+        <div class="col s2 m2 l2 offset-s5 offset-m5 offset-l5">
+            <a class="blue-grey darken-4 waves-effect waves-light btn"
+               (click)="onClick()">Go Back</a>
+        </div>
+    </div>
+</ng-template>

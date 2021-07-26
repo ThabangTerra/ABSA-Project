@@ -1,0 +1,162 @@
+[
+    {
+        "ID": "1",
+        "Name": "Magalies Park",
+        "Description": "4 Star Hotel|Great dining|Great pool|Great rooms",
+        "Price": 1052,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/magalies/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/magalies/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/magalies/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/magalies/4.jpg"
+            },
+            {
+                "ID": "5",
+                "Path": "assets/images/magalies/5.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "2",
+        "Name": "Jaz Aquaviva",
+        "Description": "5 Star Hotel|Great pool|Great dining|Great spa|Good for nightlife|Great housekeeping",
+        "Price": 1377,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/jaz/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/jaz/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/jaz/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/jaz/4.jpg"
+            },
+            {
+                "ID": "5",
+                "Path": "assets/images/jaz/5.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "3",
+        "Name": "LUX Grand Gaube Resort & Villas",
+        "Description": "5 Star Hotel|Great service|Popular with couples|Great rooms|Great service",
+        "Price": 2678,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/lux/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/lux/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/lux/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/lux/4.jpg"
+            },
+            {
+                "ID": "5",
+                "Path": "assets/images/lux/5.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "4",
+        "Name": "Baobab Beach Resort & Spa",
+        "Description": "4 Star Hotel|Great location|Great rooms|Luxurios vibe",
+        "Price": 3039,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/baobab/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/baobab/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/baobab/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/baobab/4.jpg"
+            },
+            {
+                "ID": "5",
+                "Path": "assets/images/baobab/5.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "5",
+        "Name": "Cleopatra Luxury Resort Makadi Bay",
+        "Description": "4 Star Hotel|Great rooms|Luxurios vibe|Popular with couples",
+        "Price": 2430,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/desert/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/desert/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/desert/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/desert/4.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "6",
+        "Name": "Beverly Hills Hotel",
+        "Description": "5 Star Hotel|Great bar|Great location|Fitness centre|Great service",
+        "Price": 3917,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/beverly/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/beverly/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/beverly/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/beverly/4.jpg"
+            }
+        ]
+    }
+]

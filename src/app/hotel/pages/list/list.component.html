@@ -1,0 +1,21 @@
+<section class="slider">
+    <ul class="slides">
+        <li>
+            <img src="./assets/images/hotelsBg.jpg">
+        </li>
+    </ul>
+</section>
+
+<div class="container">
+
+    <div class="row">
+        <h3 class="center-align grey-text">Top Rated Hotels</h3>
+    </div>
+
+    <div class="row">
+        <ng-container *ngFor="let hotel of hotelObs | async">
+            <card [item]="hotel"
+                  (clkEvent)="onClick($event)"></card>
+        </ng-container>
+    </div>
+</div>

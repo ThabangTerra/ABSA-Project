@@ -1,0 +1,94 @@
+<div class="wrapper">
+    <div class="reverse">
+        <div class="row">
+            <div class="col s10 m8 l6 offset-s1 offset-m2 offset-l3">
+                <div class="card darken-1">
+                    <div class="card-content black-text">
+                        <span class="card-title center-align">Book Your Flights</span>
+                        <form [formGroup]="form"
+                              autocomplete="off">
+                            <div class="row">
+                                <div class="input-field col s12 m6 l6">
+                                    <input type="text"
+                                           id="first_name"
+                                           class="validate autocomplete"
+                                           formControlName="From"
+                                           #from
+                                           (change)="onFromChange()">
+                                    <label for="first_name">From</label>
+                                </div>
+                                <div class="input-field col s12 m6 l6">
+                                    <input type="text"
+                                           id="last_name"
+                                           class="validate autocomplete"
+                                           formControlName="To"
+                                           #to
+                                           (change)="onToChange()">
+                                    <label for="last_name">To</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12 m6 l6">
+                                    <input id="depart"
+                                           type="text"
+                                           class="validate datepicker"
+                                           formControlName="Departure"
+                                           #departure
+                                           (change)="onDepartureChange()">
+                                    <label for="depart">Departure</label>
+                                </div>
+                                <div class="input-field col s12 m6 l6">
+                                    <input id="return"
+                                           type="text"
+                                           class="validate datepicker"
+                                           formControlName="Return"
+                                           #return
+                                           (change)="onReturnChange()">
+                                    <label for="return">Return</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12 m12 l12">
+                                    <input id="no_"
+                                           type="number"
+                                           class="validate"
+                                           formControlName="NumberOfAdults"
+                                           #noAdults>
+                                    <label for="no_">No. of Adults</label>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12 m12 l12">
+                                    <ng-container *ngFor="let item of flightType">
+                                        <p>
+                                            <label>
+                                                <input name="FlightType"
+                                                       type="radio"
+                                                       [value]="item.Key"
+                                                       formControlName="FlightType" />
+                                                <span>{{ item.Value }}</span>
+                                            </label>
+                                        </p>
+                                    </ng-container>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card-action">
+                        <div class="row">
+
+                            <div class="right col">
+                                <button (click)="onFind()"
+                                        class="blue-grey darken-4 waves-effect waves-light btn">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

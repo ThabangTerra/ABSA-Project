@@ -1,0 +1,138 @@
+[
+    {
+        "ID": "1",
+        "Name": "Sun City Resort",
+        "Description": "Top Rated|Free Parking|Popular with families|Popularwith couples",
+        "Price": 1230,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/sun/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/sun/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/sun/3.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "2",
+        "Name": "Magalies Park",
+        "Description": "Top Rated|Great pool|Restaurant|Great spa",
+        "Price": 914,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/magalies/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/magalies/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/magalies/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/magalies/4.jpg"
+            },
+            {
+                "ID": "5",
+                "Path": "assets/images/magalies/5.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "3",
+        "Name": "Dune Beach House",
+        "Description": "Top Rated|Great for visitors|xcellent for proximity to things to do|reat for proximity to restaurants|Great for airport access",
+        "Price": 1300,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/dune/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/dune/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/dune/3.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "4",
+        "Name": "Amanzi Island Lodge",
+        "Description": "Top Rated|Great service|Great rooms|Stylish vibe",
+        "Price": 1550,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/brenton/2.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/amanzi/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/amanzi/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/amanzi/4.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "5",
+        "Name": "Brenton Haven Beachfront Resort",
+        "Description": "Top Rated|Pool access|Free parking|Great rooms",
+        "Price": 1060,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/brenton/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/brenton/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/brenton/3.jpg"
+            }
+        ]
+    },
+    {
+        "ID": "6",
+        "Name": "Mount Amanzi",
+        "Description": "Top Rated|Popular with families|Great bar|Great service",
+        "Price": 1045,
+        "Images": [
+            {
+                "ID": "1",
+                "Path": "assets/images/amanzi/1.jpg"
+            },
+            {
+                "ID": "2",
+                "Path": "assets/images/amanzi/2.jpg"
+            },
+            {
+                "ID": "3",
+                "Path": "assets/images/sun/3.jpg"
+            },
+            {
+                "ID": "4",
+                "Path": "assets/images/dune/2.jpg"
+            }
+        ]
+    }
+]

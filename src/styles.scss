@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    color: black;
+    background-color: white;
+    // background-image: url("./assets/images/bg.jpg");
+    // background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #e0e0e0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #616161;
+}

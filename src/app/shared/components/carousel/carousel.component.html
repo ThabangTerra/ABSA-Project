@@ -1,0 +1,11 @@
+<ng-container *ngIf="images">
+    <div class="slider">
+        <ul class="slides">
+            <ng-container *ngFor="let img of images">
+                <li class="z-depth-3">
+                    <img src="{{ img.Path }}">
+                </li>
+            </ng-container>
+        </ul>
+    </div>
+</ng-container>

@@ -1,0 +1,11 @@
+<div class="wow animated pulse col s12 m6 l4">
+    <div class="card hoverable"
+         (click)="onClick(item.ID)">
+        <div class="card-image">
+            <img [src]="item.Images[0].Path" />
+        </div>
+        <div class="card-content">
+            {{ item.Name }}
+        </div>
+    </div>
+</div>
